@@ -3,13 +3,13 @@
 ![画像2](readme-img/sum4.png)
 
 ## 概要
-* [ニフクラmobile backend](http://mb.cloud.nifty.com/)の『ファイルストア機能』、『会員管理機能』、『データストア機能』を利用してUnityのサンプルプゲームプロジェクトです
-* 簡単な操作ですぐに [ニフクラmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★★
+* [ニフクラmobile backend](https://mbaas.nifcloud.com/)の『ファイルストア機能』、『会員管理機能』、『データストア機能』を利用してUnityのサンプルプゲームプロジェクトです
+* 簡単な操作ですぐに [ニフクラmobile backend](https://mbaas.nifcloud.com/)の機能を体験いただけます★★
 
 ## ニフクラmobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
 
-注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
 
 ![画像2](/readme-img/002.png)
 
@@ -22,7 +22,7 @@
 
 ## 手順
 ###『STEP 1』準備＆アプリ起動
-### 1. [ニフクラmobile backend](http://mb.cloud.nifty.com/)の会員登録とログイン→アプリ作成
+### 1. [ニフクラmobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン→アプリ作成
 
 * 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
 
@@ -45,7 +45,7 @@
 ### 4. APIキーの設定
 
 * loginシーンの`NCMBSettings`を編集します
-* 先程[ニフクラmobile backend](http://mb.cloud.nifty.com/)のダッシュボード上で確認したAPIキーを貼り付けます
+* 先程[ニフクラmobile backend](https://mbaas.nifcloud.com/)のダッシュボード上で確認したAPIキーを貼り付けます
 
 ![画像07](/readme-img/ApiKey.png)
 
@@ -127,7 +127,7 @@
 
 
 ## 参考
-* ニフクラmobile backend の[ドキュメント（会員管理）](http://mb.cloud.nifty.com/doc/current/user/basic_usage_unity.html)
-* ニフクラmobile backend の[ドキュメント（ファイルストア）](http://mb.cloud.nifty.com/doc/current/filestore/basic_usage_unity.html)
-* ニフクラmobile backend の[ドキュメント（データストア）](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_unity.html)
+* ニフクラmobile backend の[ドキュメント（会員管理）](https://mbaas.nifcloud.com/doc/current/user/basic_usage_unity.html)
+* ニフクラmobile backend の[ドキュメント（ファイルストア）](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_unity.html)
+* ニフクラmobile backend の[ドキュメント（データストア）](https://mbaas.nifcloud.com/doc/current/datastore/basic_usage_unity.html)
 * このアプリの[機能解説ドキュメント](https://github.com/ellentby/Doodle-DrawTogether/blob/master/%E6%A9%9F%E8%83%BD%E8%A7%A3%E8%AA%AC.md)
