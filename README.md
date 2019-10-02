@@ -19,7 +19,6 @@
 * Visual Studio ver.8.1.2
 * Mono ver.5.18 
 * NCMB UnitySDK v4.0.1
-* iPhone6s(iOS 13.1)
 
 ※上記内容で動作確認をしています。
 
