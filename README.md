@@ -14,8 +14,11 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* windows7以上、或いはOS X
-* Unity5.3.5以上
+* Mac OS Mojave
+* Unity 2019.1.0f2
+* Visual Studio ver.8.1.2
+* Mono ver.5.18 
+* NCMB UnitySDK v4.0.1
 
 ※上記内容で動作確認をしています。
 
