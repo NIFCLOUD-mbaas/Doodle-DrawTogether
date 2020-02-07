@@ -1,9 +1,9 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{67A013CF-8AA4-E950-142C-DB53EED7CC3E}") = "Doodle-DrawTogether", "Assembly-CSharp.csproj", "{DEF02DF1-34C3-4135-2B42-C37B4C9E2E47}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{DEF02DF1-34C3-4135-2B42-C37B4C9E2E47}"
 EndProject
-Project("{67A013CF-8AA4-E950-142C-DB53EED7CC3E}") = "Doodle-DrawTogether", "Assembly-CSharp-Editor.csproj", "{FCBF7E8F-B5F5-42D2-41A5-12D78BF244F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{FCBF7E8F-B5F5-42D2-41A5-12D78BF244F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
