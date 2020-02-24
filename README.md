@@ -9,7 +9,11 @@
 ## ニフクラmobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
 
+<<<<<<< Updated upstream
 注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
+=======
+注1：詳しくは[こちら](https://mbaas.nifcloud.com/function.htm)をご覧ください
+>>>>>>> Stashed changes
 
 ![画像2](/readme-img/002.png)
 
@@ -23,7 +27,11 @@
 
 
 ## 手順
+<<<<<<< Updated upstream
 ###『STEP 1』準備＆アプリ起動
+=======
+### 『STEP 1』準備＆アプリ起動
+>>>>>>> Stashed changes
 ### 1. [ニフクラmobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン→アプリ作成
 
 * 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
@@ -35,7 +43,7 @@
 
 ![画像4](/readme-img/004.png)
 
-### 2. GitHubからサンプルプロジェクトの<a href="https://github.com/ellentby/Doodle-DrawTogether/archive/master.zip">ダウンロード</a>
+### 2. GitHubからサンプルプロジェクトの<a href="https://github.com/NIFCLOUD-mbaas/Doodle-DrawTogether/archive/master.zip">ダウンロード</a>
 
 * 上記のリンクをクリックして、プロジェクトをダウンロード下さい。
 
@@ -58,10 +66,10 @@
 * Unity画面で上部真ん中の実行ボタン（さんかくの再生マーク）をクリックしして、ゲームを体験しましょう！
 
 <img src="readme-img/start.png" width=600px>
-
 <br/>
-###『STEP 2』ゲームの動作確認
-###①　アカウント登録
+
+### 『STEP 2』ゲームの動作確認
+### ①アカウント登録
 * 自分が好きなニックネームとパスワードを入力し、「Sign Up」ボタンをクリックして下さい。（2回目以降は`your name`と`your password`を入力してLog Inボタンをタップします）
 
 <img src="readme-img/register-button.png" width=450px>
@@ -76,7 +84,7 @@
   2. 先ほど作成したアカウントを確認しましょう。
 ![画像14](readme-img/checkregister.png)
 
-###②　テーマとDoodleの保存
+### ②テーマとDoodleの保存
 * 「New Theme」ボタンをクリックし、簡単な絵を描きましょう。ここで描いた絵は、テーマとして、Doodle（落書き）の基礎になります。
 * 描き終わったら、「submit」ボタンをクリックして保存して下さい。
 
@@ -110,7 +118,7 @@
   2. 右の画面で、先に保存しましたなテーマとDoodleのレコードを確認できます。
 ![画像14](readme-img/checkdata.png)
 
-##機能解説
+## 機能解説
 ユーザー登録と画像データの保存、絵を描く、ランキング機能などの具体的な解説は<a href="https://github.com/ellentby/Doodle-DrawTogether/blob/master/%E6%A9%9F%E8%83%BD%E8%A7%A3%E8%AA%AC.md">機能解説ドキュメント</a>をご参照下さい：
 
 <ul>
