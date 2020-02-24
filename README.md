@@ -9,11 +9,7 @@
 ## ニフクラmobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！今回はデータストアを体験します
 
-<<<<<<< Updated upstream
-注1：詳しくは[こちら](https://mbaas.nifcloud.com/price.htm)をご覧ください
-=======
 注1：詳しくは[こちら](https://mbaas.nifcloud.com/function.htm)をご覧ください
->>>>>>> Stashed changes
 
 ![画像2](/readme-img/002.png)
 
@@ -27,11 +23,7 @@
 
 
 ## 手順
-<<<<<<< Updated upstream
-###『STEP 1』準備＆アプリ起動
-=======
 ### 『STEP 1』準備＆アプリ起動
->>>>>>> Stashed changes
 ### 1. [ニフクラmobile backend](https://mbaas.nifcloud.com/)の会員登録とログイン→アプリ作成
 
 * 上記リンクから会員登録（無料）をします。登録ができたらログインをすると下図のように「アプリの新規作成」画面が出るのでアプリを作成します
