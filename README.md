@@ -111,7 +111,7 @@
 ![画像14](readme-img/checkdata.png)
 
 ## 機能解説
-ユーザー登録と画像データの保存、絵を描く、ランキング機能などの具体的な解説は<a href="https://github.com/ellentby/Doodle-DrawTogether/blob/master/%E6%A9%9F%E8%83%BD%E8%A7%A3%E8%AA%AC.md">機能解説ドキュメント</a>をご参照下さい：
+ユーザー登録と画像データの保存、絵を描く、ランキング機能などの具体的な解説は<a href="機能解説.md">機能解説ドキュメント</a>をご参照下さい：
 
 <ul>
   <li><a href="機能解説.md#q1">『機能一』ユーザー登録とログイン（会員管理）</a>
@@ -132,4 +132,4 @@
 * ニフクラmobile backend の[ドキュメント（会員管理）](https://mbaas.nifcloud.com/doc/current/user/basic_usage_unity.html)
 * ニフクラmobile backend の[ドキュメント（ファイルストア）](https://mbaas.nifcloud.com/doc/current/filestore/basic_usage_unity.html)
 * ニフクラmobile backend の[ドキュメント（データストア）](https://mbaas.nifcloud.com/doc/current/datastore/basic_usage_unity.html)
-* このアプリの[機能解説ドキュメント](https://github.com/ellentby/Doodle-DrawTogether/blob/master/%E6%A9%9F%E8%83%BD%E8%A7%A3%E8%AA%AC.md)
+* このアプリの[機能解説ドキュメント](/機能解説.md)
