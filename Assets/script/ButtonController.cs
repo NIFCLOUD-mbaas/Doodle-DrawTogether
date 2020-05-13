@@ -2,6 +2,9 @@
 using System.Collections;
 using UnityEngine.UI;
 using NCMB;
+#if UNITY_2019_3_OR_NEWER
+using UnityEngine.SceneManagement;
+#endif
 
 public class ButtonController : MonoBehaviour {
 	public Color lineColor;
@@ -105,22 +108,34 @@ public class ButtonController : MonoBehaviour {
 
 	public void OnNewTheme(){
 		Configuration.status = Status.newTheme;
-		Application.LoadLevel ("draw");
-		Destroy (this);
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("draw");
+#else
+		Application.LoadLevel("draw");
+#endif
+		Destroy(this);
 	}
 
 	public void OnViewThemes(){
 		Configuration.status = Status.theme;
-		Application.LoadLevel ("themes");
-		Destroy (this);
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("themes");
+#else
+		Application.LoadLevel("themes");
+#endif
+		Destroy(this);
 	}
 
 	public void OnBackToTitle(){
 		Configuration.status = Status.idle;
-		Application.LoadLevel ("title");
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("title");
+#else
+		Application.LoadLevel("title");
+#endif
 	}
 
-    public void OnQuitGame(){
+	public void OnQuitGame(){
         NCMBUser.LogOutAsync((NCMBException e) => {
             if (e != null)
             {
@@ -150,7 +165,11 @@ public class ButtonController : MonoBehaviour {
 					UnityEngine.Debug.Log ("ログインに成功！");
 					GameObject.Find ("Notation").GetComponent<Text>().text = "ログインに成功！";
 					Configuration.username = nameInput.text;
-					Application.LoadLevel("title");
+#if UNITY_2019_3_OR_NEWER
+					SceneManager.LoadScene("title");
+#else
+		Application.LoadLevel("title");
+#endif
 				}
 			});
 		}
@@ -174,7 +193,11 @@ public class ButtonController : MonoBehaviour {
 					UnityEngine.Debug.Log ("新規登録に成功");
 					GameObject.Find ("Notation").GetComponent<Text>().text = "新規登録に成功";
 					Configuration.username = nameInput.text;
-					Application.LoadLevel("title");
+#if UNITY_2019_3_OR_NEWER
+					SceneManager.LoadScene("title");
+#else
+		Application.LoadLevel("title");
+#endif
 				}
 			});
 
@@ -194,7 +217,11 @@ public class ButtonController : MonoBehaviour {
 
 	public void OnIDraw(){
 		Configuration.status = Status.newDoodle;
-		Application.LoadLevel ("draw");
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("draw");
+#else
+		Application.LoadLevel("draw");
+#endif
 	}
 
 	public void OnTheme(int i){
@@ -205,7 +232,11 @@ public class ButtonController : MonoBehaviour {
 		}
 		Configuration.themeData = obj;
 		Configuration.theme = obj["filename"].ToString();
-		Application.LoadLevel ("doodles");
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("doodles");
+#else
+		Application.LoadLevel("doodles");
+#endif
 	}
 
 	public void OnLike(int i){
@@ -213,7 +244,11 @@ public class ButtonController : MonoBehaviour {
 	}
 
 	public void OnBest(){
-		Application.LoadLevel ("bestDoodle");
+#if UNITY_2019_3_OR_NEWER
+		SceneManager.LoadScene("bestDoodle");
+#else
+		Application.LoadLevel("bestDoodle");
+#endif
 	}
 
 	public void Erase(){

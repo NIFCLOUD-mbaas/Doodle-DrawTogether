@@ -1,23 +1,9 @@
-﻿#if UNITY_CHANGE1 || UNITY_CHANGE2 || UNITY_CHANGE3
-#warning UNITY_CHANGE has been set manually
-#elif UNITY_4_0 || UNITY_4_1 || UNITY_4_2 || UNITY_4_3 || UNITY_4_4 || UNITY_4_5 || UNITY_4_6 || UNITY_4_7
-#define UNITY_CHANGE1
-#elif UNITY_5_0 || UNITY_5_1 || UNITY_5_2
-#define UNITY_CHANGE2
-#else
-#define UNITY_CHANGE3
-#endif
-//use UNITY_CHANGE1 for unity older than "unity 5"
-//use UNITY_CHANGE2 for unity 5.0 -> 5.3 
-//use UNITY_CHANGE3 for unity 5.3 (fix for new SceneManger system  )
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Threading;
-#if UNITY_CHANGE3
+#if UNITY_2019_3_OR_NEWER
 using UnityEngine.SceneManagement;
 #endif
-
 
 
 //this script used for test purpose ,it do by default 100 logs  + 100 warnings + 100 errors
@@ -124,21 +110,21 @@ public class TestReporter : MonoBehaviour
 			GUI.Label(rect1, "Draw circle on screen to show logs", style);
 			GUI.Label(rect2, "To use Reporter just create reporter from reporter menu at first scene your game start", style);
 			if (GUI.Button(rect3, "Load ReporterScene")) {
-#if UNITY_CHANGE3
+#if UNITY_2019_3_OR_NEWER
 				SceneManager.LoadScene("ReporterScene");
 #else
 				Application.LoadLevel("ReporterScene");
 #endif
 			}
 			if (GUI.Button(rect4, "Load test1")) {
-#if UNITY_CHANGE3
+#if UNITY_2019_3_OR_NEWER
 				SceneManager.LoadScene("test1");
 #else
 				Application.LoadLevel("test1");
 #endif
 			}
 			if (GUI.Button(rect5, "Load test2")) {
-#if UNITY_CHANGE3
+#if UNITY_2019_3_OR_NEWER
 				SceneManager.LoadScene("test2");
 #else
 				Application.LoadLevel("test2");
