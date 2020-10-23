@@ -14,10 +14,10 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* MacOS Mojave v10.14.6 (18G103)
-* Android studio: 3.4.1
-* Simulator: Pixel 2 Android OS Version 10
-* Unity 2019.2.17f1
+* MacOS Mojave v10.15.6 (Catalina)
+* Android studio: 4.0
+* LG V20 plus (OS 8.0)
+* Unity 2020.1.8f1
 
 ※上記内容で動作確認をしています。
 
@@ -54,7 +54,7 @@
 
 * 貼り付けたらシーンを保存して下さい。
 
-### 5. アプリ再生
+### 5. 動作確認
 * Unity画面で上部真ん中の実行ボタン（さんかくの再生マーク）をクリックしして、ゲームを体験しましょう！
 
 <img src="readme-img/start.png" width=600px>
