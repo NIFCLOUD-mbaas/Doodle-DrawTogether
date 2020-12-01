@@ -4,7 +4,9 @@ using System.IO;
 using System;
 using NCMB;
 using UnityEngine.UI;
-
+#if UNITY_2019_3_OR_NEWER
+using UnityEngine.SceneManagement;
+#endif
 public class SaveImage : MonoBehaviour {
 	public Camera camera;
 	RenderTexture renderTexture;
@@ -78,9 +80,18 @@ public class SaveImage : MonoBehaviour {
 				//成功時の処理
 				//TODO
 				if(Configuration.status == Status.newTheme){
+#if UNITY_2019_3_OR_NEWER
+					SceneManager.LoadScene("themes");
+#else
 					Application.LoadLevel("themes");
-				}else if(Configuration.status == Status.newDoodle){
+#endif
+				}
+				else if(Configuration.status == Status.newDoodle){
+#if UNITY_2019_3_OR_NEWER
+					SceneManager.LoadScene("doodles");
+#else
 					Application.LoadLevel("doodles");
+#endif
 				}
 			}                   
 		});
