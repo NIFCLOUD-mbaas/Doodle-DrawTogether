@@ -137,14 +137,11 @@ public class ButtonController : MonoBehaviour {
 
 	public void OnQuitGame(){
         NCMBUser.LogOutAsync((NCMBException e) => {
-            if (e != null)
-            {
-                Application.Quit();
-            }
-            else
-            {
-                Application.Quit();
-            }
+			#if UNITY_EDITOR
+         		UnityEditor.EditorApplication.isPlaying = false;
+			#else
+				Application.Quit();
+			#endif
         });
 	}
 
