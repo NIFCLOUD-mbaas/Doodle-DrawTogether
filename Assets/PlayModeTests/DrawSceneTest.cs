@@ -41,7 +41,7 @@ public class DrawSceneTest : MonoBehaviour
         var ifPasswordGameObj = GameObject.Find("Password");
         var ifPassword = ifPasswordGameObj.GetComponent<InputField>();
 
-		ifUsername.text = username;
+        ifUsername.text = username;
         ifPassword.text = password;
 
         var btnSignUpGameObject = GameObject.Find("SignUp");
