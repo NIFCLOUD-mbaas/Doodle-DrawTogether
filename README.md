@@ -18,6 +18,7 @@
 * Android studio: 4.0
 * LG V20 plus (OS 8.0)
 * Unity 2020.3.20f1 (LTS)
+* Unity SDK v4.4.1
 
 ※上記内容で動作確認をしています。
 
