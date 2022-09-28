@@ -14,11 +14,13 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
-* MacOS Big Sur 11.6 (20G165)
-* Android studio: 4.0
-* LG V20 plus (OS 8.0)
+* Mac OS 12.5.1 (Monterey)
 * Unity 2020.3.20f1 (LTS)
 * Unity SDK v4.4.1
+* Android studio: 4.0
+* LG V20 plus (OS 8.0)
+* Xcode Version 14.0
+* iPhone X (iOS 16)
 
 ※上記内容で動作確認をしています。
 
