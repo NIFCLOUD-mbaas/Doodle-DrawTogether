@@ -14,12 +14,14 @@
 ![画像2](/readme-img/002.png)
 
 ## 動作環境
+
 * MacOS Monterey version 12.5 
 * Android Studio Chipmunk | 2021.2.1 Patch 2
-* Pixle 2 - Android 13 (Simulator)
+* Pixel 2 - Android 13 (Simulator)
 * LG V20 plus (OS 8.0)
 * Unity 2021.3.3f1 (LTS)
-* Unity SDK v4.4.1
+* Xcode Version 14.0
+* iPhone X (iOS 16)
 
 ※上記内容で動作確認をしています。
 
